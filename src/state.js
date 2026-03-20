@@ -8,7 +8,7 @@ export const state = {
   optimizeMaxSidePx: 1024,
   // Clear text (image output). Cheaper option for paid tier:
   // gemini-2.5-flash-image is typically cheaper per 1K output image than 3.1 flash-image-preview.
-  modelImageEdit: "gemini-2.5-flash-image",
+  modelImageEdit: "gemini-3.1-flash-image-preview",
   modelTextGen: "gemini-3.1-flash-lite-preview",
 };
 
